@@ -1,0 +1,98 @@
+.solution {
+    background-image: url("../images/design/background.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 100px;
+    padding: 20px;
+  
+    @media (min-width:768px) {
+      margin-top: 80px ;
+    }
+
+    @media (min-width:1440px) {
+      margin-top: 150px;
+    }
+
+    @media (min-width:1920px) {
+      margin-top: 231px;
+    }
+
+  }
+  
+  .solution-img {
+    width: 80%;
+    padding: 30px;
+  
+    @media (min-width:768px) {
+      width: 37%;
+    }
+  }
+  
+  .solution-container {
+    @media (min-width:768px) {
+      width: 50%;
+      margin-top: 30px;
+    }
+
+    @media (min-width:1024px) {
+      width: 40%;
+    }
+
+    @media (min-width:1440px) {
+      width: 30%;
+      padding: 20px;
+    }
+
+    @media (min-width:1920px) {
+      width: 35%;
+      padding: 30px;
+    }
+  }
+
+  .solution-header {
+    @media (min-width:1920px) {
+      font-size: 55px;
+    }
+  }
+  
+  .solution-content {
+    color: $grey;
+
+    @media (min-width:768px) {
+      font-size: 12px;
+    }
+
+    @media (min-width:1024px) {
+      font-size: 14px;
+      margin-top: 10px;
+      margin-bottom: 16px;
+    }
+
+    @media (min-width:1440px) {
+      font-size: 16px;
+      margin-top: 16px;
+      margin-bottom: 22px;
+    }
+
+    @media (min-width:1440px) {
+      font-size: 17px;
+      margin-top: 30px;
+      margin-bottom: 39px;
+    }
+  }
+  
+  .solution-btn {
+    background-color: #fad725 !important;
+    border-radius: 4px !important;
+    border: 0 !important;
+    padding:15px !important ;
+  
+    &:hover {
+      background-color: #efc806 !important;
+    }
+
+    @media (min-width:1920px) {
+      padding: 15px 40px !important;
+      font-size: 24px;
+    }
+  }

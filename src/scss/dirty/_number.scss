@@ -1,0 +1,33 @@
+.number {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  row-gap: 10px;
+  border: 1px solid #E1E1E1;
+  width: 60%;
+  padding: 20px;
+
+  @media (min-width:768px) {
+    flex-direction: row;
+    column-gap: 40px;
+    width: 65%;
+  }
+}
+
+.number-box {
+  
+  &-header, &-text {
+    color: $grey;
+  }
+
+  @media (min-width:1920px) {
+    padding: 20px;
+    margin-top: 20px;
+
+    &-header {
+      font-size: 73px;
+    }
+  }
+}

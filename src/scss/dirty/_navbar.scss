@@ -1,0 +1,75 @@
+.navbar-search-box {
+  @media (min-width: 320px) {
+    display: none !important;
+  }
+
+  @media (min-width: 1024px) {
+    display: flex !important;
+    justify-content: end;
+  }
+}
+
+.custom-nav-item {
+  @media (min-width: 1024px) {
+    display: none;
+  }
+}
+
+.navbar-item {
+  @media (min-width: 1024px) {
+    font-size: 16px;
+    color: inherit;
+    text-decoration: underline 0.15rem rgba(255, 255, 255, 0);
+    transition: text-decoration-color 500ms;
+  }
+
+  @media (min-width: 1440px) {
+    font-size: 18px;
+  }
+
+  @media (min-width: 1920px) {
+    font-size: 24px;
+  }
+}
+
+.navbar-item:hover {
+  text-decoration-color: $purple;
+}
+
+.custom-btn {
+  @media (min-width: 1024px) {
+    padding: 10px 20px 10px 20px;
+  }
+
+  @media (min-width: 1440px) {
+    padding: 15px 25px 15px 25px;
+    font-size: 18px;
+  }
+
+  @media (min-width: 1920px) {
+    padding: 17px 45px 17px 45px;
+    font-size: 24px;
+  }
+}
+
+.search-icon {
+  @media (min-width: 1024px) {
+    transition: transform 0.3s;
+    padding: 13px 20px 13px 20px;
+    background-color: #fad725 !important;
+    border-radius: 4px !important;
+    border: 0 !important;
+  }
+
+  @media (min-width: 1440px) {
+    padding: 20px 25px 20px 25px;
+  }
+
+  @media (min-width: 1920px) {
+    padding: 25px 30px 25px 30px;
+  }
+
+  &:hover {
+    background-color: #efc806 !important;
+  }
+}

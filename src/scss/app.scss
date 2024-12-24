@@ -1,26 +1,46 @@
-/* By Athlon Front-End Team */
 
-/* Core variables */
-@import 'base/vars';
+// /* Core variables */
+@import './base/variables';
 
-/* CSS Reset */
-@import 'base/reset';
+@import '~bootstrap/scss/bootstrap';
 
-/* CSS print */
-@import 'base/print';
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
 
-/* Fonts */
-@import 'base/fonts';
+.custom-header-part {
+  color: $purple;
+}
 
-/* Mixins, helpers and functions */
-@import 'base/mixins';
+// navbar section 
+@import './dirty/navbar';
 
-/* Vendor */
+// hero section 
+@import './dirty/hero';
 
-/* Components */
+// services section
+@import './dirty/services';
 
-/* Browser specific styles */
-@import 'dirty/hacks';
+// optimizing section
+@import './dirty/optimizing';
 
-/* Demo Page styles */
-@import 'demo';
+// solution section
+@import './dirty/solution';
+
+// grow section
+@import './dirty/grow';
+
+// choose section
+@import './dirty/choose';
+
+// need section
+@import './dirty/need';
+
+// number section
+@import './dirty/number';
+
+// speed section
+@import './dirty/speed'

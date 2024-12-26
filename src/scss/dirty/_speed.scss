@@ -3,6 +3,27 @@ input {
   background-color: #DFDFDF;
   border: 0;
   color: #B6B6B6;
+  padding: 10px;
+
+  @media (min-width:375px) {
+    width: 180px;
+  }
+
+  @media (min-width:425px) {
+    width: 200px;
+  }
+}
+
+.speed {
+  margin-top: 30px;
+
+  @media (min-width:768px) {
+    margin-top: 70px;
+  }
+}
+
+.speed-container-text {
+  color: $grey;
 }
 
 .submit-btn {
@@ -18,8 +39,22 @@ input {
     background-color: #efc806 !important;
   }
 
+  @media (min-width:1024px) {
+    justify-self: end;
+  }
+
   @media (min-width:1920px) {
     padding: 15px 40px !important;
     font-size: 24px;
+  }
+}
+
+.speed-img {
+  width: 100%;
+  margin-top: 30px;
+
+  @media (min-width:768px) {
+    width: 40%;
+    margin-top: 0;
   }
 }

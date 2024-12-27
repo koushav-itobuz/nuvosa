@@ -1,0 +1,57 @@
+.plan {
+  background-color: #FAFAFA;
+  padding: 20px;
+}
+
+.plan-header {
+  @media (min-width:1920px) {
+    font-size: 55px;
+  }
+}
+
+.plan-text,.plan-item-box-text {
+  color: $grey;
+}
+
+.plan-item {
+  @media (min-width:768px) {
+    margin-top: 40px;
+  }
+}
+
+.plan-item-box-header {
+  color: $purple;
+  margin-bottom: 20px;
+}
+
+.plan-item-box {
+  background-color: #fff;
+  padding: 40px 20px;
+  transition: transform 0.4s;
+
+  &:hover {
+    transform: scale(1.1);
+    color: #fff;
+    background-color: $purple;
+    cursor: pointer;
+
+    .plan-item-box-text, .plan-item-box-header {
+      color: white;
+    }
+
+    .plan-btn {
+      background-color: #fad725 !important;
+      border: 0 !important;
+
+      &:hover {
+        background-color: #efc806 !important;
+        color:  black !important;
+      }
+    }
+  }
+}
+
+
+
+
+

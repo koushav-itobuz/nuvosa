@@ -1,0 +1,39 @@
+.member-header {
+  margin-top: 40px;
+  margin-bottom: 20px;
+
+  @media (min-width:1024px) {
+    margin-top: 60px;
+  }
+
+  @media (min-width:1920px) {
+    font-size: 55px;
+    margin-top: 80px;
+  }
+}
+
+.member-text {
+  color: $grey;
+
+  @media (min-width:1920px) {
+    width: 660px;
+    display: flex;
+    justify-self: center;
+  }
+}
+
+.member-item-box {
+  border: 1px solid #EFEFEF;
+  padding: 20px;
+
+  &:hover {
+    border: 0;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  &-text {
+    color: $grey;
+  }
+}
+
